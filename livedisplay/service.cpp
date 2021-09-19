@@ -25,8 +25,8 @@
 #include <hidl/HidlTransportSupport.h>
 #include <livedisplay/sdm/SDMController.h>
 
-#include "AntiFlicker.h"
-#include "SunlightEnhancement.h"
+#include <livedisplay/oneplus/AntiFlicker.h>
+#include <livedisplay/oneplus/SunlightEnhancement.h>
 
 using android::OK;
 using android::sp;

@@ -22,8 +22,8 @@ cc_binary {
     srcs: [
         ":vendor.lineage.livedisplay@2.0-sdm-pa",
         ":vendor.lineage.livedisplay@2.0-sdm-utils",
-        "AntiFlicker.cpp",
-        "SunlightEnhancement.cpp",
+        ":vendor.lineage.livedisplay@2.1-oneplus-af",
+        ":vendor.lineage.livedisplay@2.1-oneplus-se",
         "service.cpp",
     ],
     shared_libs: [
@@ -36,6 +36,7 @@ cc_binary {
     ],
     header_libs: [
         "vendor.lineage.livedisplay@2.0-sdm-headers",
+        "vendor.lineage.livedisplay@2.1-oneplus-headers",
     ],
     proprietary: true,
 }
